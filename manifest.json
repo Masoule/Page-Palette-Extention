@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "Page Palette Plugin",
+  "description": "This extension will allow color customization for web pages",
+  "version": "1.0",
+
+  "browser_action": {
+   "default_icon": "icon.png",
+   "default_popup": "popup.html"
+  },
+  "permissions": [
+   "activeTab"
+   ]
+}
